@@ -10,7 +10,8 @@ namespace CheckPointUke2Lema
 
 			Company previousJob = new Company("BakerHughes", 150, "Lema", 28, "15.10.2018");
 			Console.WriteLine(previousJob.Description());
-			
+
+			//GITHUB repository: https://github.com/LemaSed/CheckPointUke2
 		}
 	}
 }

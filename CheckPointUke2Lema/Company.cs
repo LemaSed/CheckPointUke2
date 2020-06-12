@@ -6,8 +6,8 @@ namespace CheckPointUke2Lema
 {
 	public class Company: Employee
 	{
-		private string _companyName { get; set; }
-		private int _employeeCount { get; set; }
+		public string _companyName { get; set; }
+		public int _employeeCount { get; set; }
 		public Company ( string companyName, int employeeCount, string name = "", int age = 0, string hireDate="00.00.00" ) : base (name, age, hireDate)
 		{
 			_companyName = companyName;
